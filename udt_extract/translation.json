@@ -1,0 +1,205 @@
+{
+  "data" :
+  {
+    "echo_avg_profile": {
+      "alter_ego":["amplitude"],
+      "unit": "V",
+      "graph_title": "Echo"
+    },
+    "velocity_avg_profile": {
+      "alter_ego":["velocity"],
+      "unit": "m/s",
+      "graph_title": "Velocity"
+    },
+    "snr_doppler_avg_profile": {
+      "alter_ego":["snr"],
+      "unit": "dB",
+      "graph_title": "SNR <br> Doppler"
+    },
+    "velocity_std_profile": {
+      "alter_ego":["std_velocity", "std"],
+      "unit": "m/s",
+      "graph_title": "Velocity <br> standard deviation"
+    },
+    "turbidity_avg_profile": {
+      "alter_ego":["turbi"],
+      "unit": "1/m"
+    },
+    "saturation_avg_profile": {
+      "alter_ego":["saturation"],
+      "unit": null
+    },
+    "ny_jump_avg_profile": {
+      "alter_ego":null,
+      "unit": null
+    },
+    "saturation_profile": {
+      "alter_ego":null,
+      "unit": null
+    },
+    "ny_jump_profile": {
+      "alter_ego":null,
+      "unit": null
+    },
+    "echo_profile": {
+      "alter_ego":["instamplitude"],
+      "unit": "V",
+      "graph_title": "Echo"
+    },
+    "velocity_profile": {
+      "alter_ego":["instvelocity"],
+      "unit": "m/s",
+      "graph_title": "Velocity"
+    },
+    "snr_doppler_profile": {
+      "alter_ego":["instsnr"],
+      "unit": "dB",
+      "graph_title": "SNR <br> Doppler"
+    },
+    "turbidity_profile": {
+      "alter_ego":["instturbi"],
+      "unit": "1/m"
+    },
+    "temperature": {
+      "alter_ego":["temp"],
+      "unit": "K"
+    },
+    "sound_speed": {
+      "alter_ego": null,
+      "unit": "m/s"
+    },
+    "roll": {
+      "alter_ego": null,
+      "unit": "rad"
+    },
+    "pitch": {
+      "alter_ego": null,
+      "unit": "rad"
+    },
+    "velocity_avg": {
+      "alter_ego": ["v_moy"],
+      "unit": "m/s"
+    },
+    "velocity_max": {
+      "alter_ego": ["v_max"],
+      "unit": "m/s"
+    },
+    "velocity_min": {
+      "alter_ego": ["v_min"],
+      "unit": "m/s"
+    },
+    "velocity_std": {
+      "alter_ego": ["v_std"],
+      "unit": "m/s"
+    },
+    "snr_doppler_avg": {
+      "alter_ego": ["snr_doppler"],
+      "unit": "dB"
+    },
+    "snr_echo_avg": {
+      "alter_ego": ["snr_echo"],
+      "unit": "dB"
+    },
+    "rate_doppler": {
+      "alter_ego": ["n_good"],
+      "unit": "%"
+    },
+    "velocity_distribution": {
+      "alter_ego": ["tests_av_distrib_in_air","tests_av_distrib_in_flume", "distrib"],
+      "unit": null
+    },
+    "noise_g_high": {
+      "alter_ego": ["noise"],
+      "unit": "V"
+    },
+    "noise_g_low": {
+      "alter_ego": null,
+      "unit": "V"
+    }
+  },
+  "param_const":
+  {
+    "operator" : {
+      "alter_ego": null,
+      "unit": null
+    },
+    "comments" : {
+      "alter_ego": null,
+      "unit": null
+    },
+    "emitter" : {
+      "alter_ego": null,
+      "unit": null
+    },
+    "receiver" : {
+      "alter_ego": ["tr_out"],
+      "unit": null
+    }
+  },
+  "param_var": {
+    "f0": {
+      "alter_ego": null,
+      "unit": "Hz"
+    },
+    "v_min": {
+      "alter_ego": ["v_min_1"],
+      "unit": "m/s"
+    },
+    "v_max": {
+      "alter_ego": null,
+      "unit": "m/s"
+    },
+    "prf": {
+      "alter_ego": null,
+      "unit": "Hz"
+    },
+    "r_cell1": {
+      "alter_ego": ["r_vol1"],
+      "unit": "m"
+    },
+    "r_dcell": {
+      "alter_ego": ["r_dvol"],
+      "unit": "m"
+    },
+    "n_cell": {
+      "alter_ego": ["n_vol"],
+      "unit": null
+    },
+    "r_em": {
+      "alter_ego": null,
+      "unit": "m"
+    },
+    "n_p": {
+      "alter_ego": ["n_ech"],
+      "unit": null
+    },
+    "v_em": {
+      "alter_ego": null,
+      "unit": "V"
+    },
+    "n_avg": {
+      "alter_ego": ["n_profile", "n_profil"],
+      "unit": null
+    },
+    "a0": {
+      "alter_ego": ["gain_a0"],
+      "unit": "dB"
+    },
+    "a1": {
+      "alter_ego": ["gain_a1"],
+      "unit": "dB/m"
+    },
+    "phase_coding": {
+      "alter_ego": null,
+      "unit": null
+    },
+    "static_echo_filter": {
+      "alter_ego": null,
+      "unit": null
+    },
+    "sound_speed": {
+      "alter_ego": null,
+      "unit": "m/s"
+    }
+  }
+}
