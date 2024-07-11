@@ -209,4 +209,4 @@ class ubt_raw_config():
 
         # sound speed extraction
         if "R_Ny" in self.list_elem:
-            self.list_elem['sound_speed'] = self.list_elem["R_Ny"]*1.*self.list_elem["f0"] / self.list_elem["prf"]
+            self.list_elem['sound_speed'] = 2.*self.list_elem["R_Ny"]*1.*self.list_elem["f0"] / self.list_elem["prf"]
